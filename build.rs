@@ -17,5 +17,7 @@ fn vendor_configure() {
 }
 
 fn bind() {
-
+    let bindings = bindgen::Builder::default()
+        .header("vendor/wrapper.h")
+        .
 }
